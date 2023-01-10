@@ -14,6 +14,10 @@
     --youMakeMe-font: hsla(0, 0%, 100%, 0.822);
 }
 
+body{
+    background-color: #E8E8E8;
+}
+
 .chamada{
     float: right;
 
