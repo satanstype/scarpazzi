@@ -56,6 +56,7 @@
     position: relative;
     margin-bottom: 5rem;
 
+    flex-wrap: wrap;
 
 }
 
@@ -85,4 +86,26 @@
 
 .btnVoltar{
     cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+    .quotes__container{
+        position: inherit;
+        color: #000000;
+    }
+
+    .quotes__img{
+        margin-bottom: 1rem;
+    }
+
+    .quotes{
+        margin-top: 1rem;
+        color: #000000;
+    }
 }

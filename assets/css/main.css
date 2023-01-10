@@ -16,7 +16,6 @@
 
 .chamada{
     float: right;
-    flex-wrap: wrap;
 
     margin: 4% 20%;
     
@@ -56,10 +55,11 @@
     font-size: 12px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 1000px) {
 
     .chamada{
         margin: 40% 10%;
+        
     }
 
     .chamada__titulo{
@@ -74,4 +74,5 @@
         font-size: 1.5rem;
         width: 40%;
     }
+
 }
