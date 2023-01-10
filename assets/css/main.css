@@ -1,0 +1,77 @@
+:root{
+
+    --botoes-opcoes-bg: hsl(0, 0%, 26%);
+    --botoes-opcoes-font: hsl(240, 2%, 88%);
+
+    --read-me-letter-font: hsl(0, 0%, 10%);
+    --read-me-letter-bg: hsla(0, 0%, 100%, 0.527);
+
+    --quotes-font: hsla(0, 0%, 100%, 0.822);
+    --quotes-author: hsla(0, 0%, 93%, 0.356);
+
+
+    --youMakeMe-container-bg: hsla(0, 0%, 0%, 0.466);
+    --youMakeMe-font: hsla(0, 0%, 100%, 0.822);
+}
+
+.chamada{
+    float: right;
+    flex-wrap: wrap;
+
+    margin: 4% 20%;
+    
+}
+
+.chamada__titulo{
+    font-family: 'Petrona', serif;    
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
+    margin-bottom: 2.5rem;
+    text-align: right;
+}
+
+.chamada__icone{
+
+    border-radius: .2rem;
+    height: 350px;
+
+    margin-bottom: 2rem;
+
+    cursor: pointer;
+    
+    transition: all .3s;
+}
+
+.chamada__icone:hover{
+    transform: scaleX(1.3);
+    transform: scaleY(1.01);
+}
+
+.chamada__descricao{
+    width: 130px;
+
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 720px) {
+
+    .chamada{
+        margin: 40% 10%;
+    }
+
+    .chamada__titulo{
+        font-size: 2.2rem;
+    }
+
+    .chamada__icone{
+        height: 620px;
+    }
+
+    .chamada__descricao{
+        font-size: 1.5rem;
+        width: 40%;
+    }
+}

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Scarpazzi.</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/base/base.css" />
+
+
+    <link rel="stylesheet" href="./assets/css/opcoes.css" />
+
+    <link rel="stylesheet" href="./assets/css/caminhosSecao/readMe.css" />
+    <link rel="stylesheet" href="./assets/css/caminhosSecao/dedicacoes.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/caminhosSecao/agradecimento.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/componentes/botoes.css" />
+    <link rel="stylesheet" href="./assets/css/componentes/titulos.css" />
+    <link rel="stylesheet" href="./assets/css/componentes/headerSecao.css" />
+    <link rel="stylesheet" href="./assets/css/componentes/btnVoltar.css" />
+
+    <script
+    src="https://kit.fontawesome.com/3f3c4f089d.js"
+    crossorigin="anonymous"
+  ></script>
+  
+  </head>
+  <body>
+
+    <audio id="music" src="assets/music/sentimental.mp3"></audio>
+
+    <section class="container__home">
+      <div class="chamada">
+        <h1 class="chamada__titulo">scarpazzi.</h1>
+
+        <button id="home-btn" onclick="iniciar()">
+          <img src="assets/img/home-icon.jpg" alt="" class="chamada__icone" />
+        </button>
+
+        <p class="chamada__descricao">
+          why don't we go somewhere only we know?
+        </p>
+      </div>
+    </section>
+
+    <section class="container-opcoes ativo">
+
+      
+      <div class="container__citacao">
+        
+        <p class="opcoes__citacao">
+          "Juro que é como se todo o universo fosse minúsculo perto de nós, e nada dentro dele pudesse nos atingir."
+        </p>
+        
+        <hr class="opcoes__divider">
+        
+      </div>
+      
+      <div class="botoes__opcoes">
+        
+        <button class="btn-dedicacoes" onclick="dedicacoes()">
+          quotes for u.
+        </button>
+        
+        <button class="btn-agradecimento" onclick="agradecimento()">
+          you make me...
+        </button>
+
+        <button class="btn-texto" onclick="readMe()">always remember.</button>
+      </div>
+
+      <img
+        class="milkmocha__opcoes"
+        src="/assets/img/milkmocha-opcoes.gif"
+        alt=""
+      />
+    </section>
+
+
+
+    <!--                        dedicacoes                                -->
+
+    <section class="container-dedicacoes ativo">
+
+      <div class="dedicacoes__header">
+        <p class="dedicacoes__titulo">
+          I. "[...] Meu amor por você tende a apenas crescer, e eu quero que consiga se lembrar disso todos os dias, até mesmo nos nossos piores."
+        </p>
+
+        <hr class="dedicacoes__divider" />
+      </div>
+      
+      <div class="dedicacoes-caixas">
+   
+      <div class="container__bg">
+          <img src="./assets/img/waist-balcony-banner.jpg" alt="" class="quotes__img">
+        
+        <div class="quotes__container">
+          <p class="quotes">
+            You miss the love of your life. You want to go home. You would
+            rather be with her, in bed, hearing the light buzz of her snoring,
+            watching her sleep, than be here.
+          </p>
+
+          <p class="quotes__author">
+            — Taylor Jenkins Reid, The Seven Husbands of Evelyn Hugo
+          </p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/beach-kiss.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            I wanna brainwash you into loving me forever, I wanna transport you to somewhere the culture's clever, confess my truth in swooping sloping cursive letters.
+          </p>
+
+          <p class="quotes__author">— Taylor Swift, Paris</p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/picnic.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            [...] come home… and be my own again, and kiss me as you used to. I
+            hope for you so much, and feel so eager for you… that the
+            expectation… makes me feel hot and feverish, and my heart beats so
+            fast.
+          </p>
+
+          <p class="quotes__author">
+            — Emily Dickinson, one of her love letters to Susan
+          </p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/pool-aside.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            Always remember we're burned for better. I vow I will always be yours, 'cause we survived the Great War.
+          </p>
+
+          <p class="quotes__author">— Taylor Swift, Great War</p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/hands-prom.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            Honestly she's the only one that's watching over me, gives me oxygen
+            when it gets hard to breathe. And if I'm wrong or right, she's
+            always on my side. If I lose the fight, I know she'll bring me back
+            to life.
+          </p>
+
+          <p class="quotes__author">— Zayn, Back to Life</p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/shower-cuddle.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            But, you know, that feeling? When you wake up in the morning and you have somebody to think about? Somewhere for hope to go? It’s good. Even when it’s bad, it’s good.
+          </p>
+
+          <p class="quotes__author">— Casey McQuiston, One Last Stop</p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/lap-kiss.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            I wanted to give her a lot of things. I wanted what I had to be hers. I wondered if this was what it felt like to love someone. But to love someone. To care for them. To throw your lot in with theirs and think, Whatever happens, it’s you and me.
+          </p>
+
+          <p class="quotes__author">— Taylor Jenkins Reid, The Seven Husbands of Evelyn Hugo</p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/lap-makup.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            All I can say is that you make me... you make me into someone I couldn't even imagine. You make me happy, even when you're awful. I would rather be with you - even the you that you seem to think is diminished - than with anyone else in the world.
+          </p>
+
+          <p class="quotes__author">— Jojo Moyes, Me Before You</p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img/neck-hand.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            Industry disruptors and soul deconstructors, and smooth-talking hucksters out-glad-handing each other, and the voices that implore: “you should be doing more” — to you I can admit that I'm just too soft for all of it.
+          </p>
+
+          <p class="quotes__author">— Taylor Swift, Sweet Nothing</p>
+        </div>
+      </div>
+
+      <div class="container__bg">
+        <img src="./assets/img//jacket-hug.jpg" alt="" class="quotes__img">
+
+        <div class="quotes__container">
+          <p class="quotes">
+            I should have taken her out to dinner and told her what I wanted to do and explained why I wanted to do it. I should have made love to her that night, to show her that the only body I was truly interested in deriving pleasure from was hers.
+          </p>
+
+          <p class="quotes__author">— Taylor Jenkins Reid, The Seven Husbands of Evelyn Hugo</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="btnVoltar" onclick="btnVoltarQuotes()"><i class="fa-solid fa-arrow-left"></i></button>
+
+    </section>
+
+        <!--                        youMakeMe                                -->
+
+
+    <section class="container-youMakeMe ativo">
+
+      <div class="youMakeMe__header">
+        <p class="youMakeMe__titulo">
+          II. "[...] Gostaria de morar para sempre nesses momentos que temos juntinhas, mas fico feliz em poder os repetir e criar novos com você."
+        </p>
+
+        <hr class="youMakeMe__divider" />
+      </div>
+
+        <div class="youMakeMe__caixas">
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Ainda me faz sentir arrepios e frio na barriga sempre que se aproxima de mim.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Rir não das coisas que não vejo graça, mas sim por me contagiar com a sua própria risada.</p>
+
+      </div>
+
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Acordar completamente apaixonada por você, não importa quanto tempo se passe desde o começo de nós.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Querer colocar você nos meus braços e proteger de absolutamente tudo quando está fragilizada.</p>
+
+      </div>
+
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Passar horas acordada durante a noite apenas com a intenção de velar seu sono, te ouvir respirar tranquilamente e sentir seu cheiro.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Assistir minha primeira novela para compartilharmos opiniões. E, pior: acabar gostando da novela.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Me reinventar todos os dias, na intenção de ser melhor.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Acordar no dia seguinte de uma briga com vontade de esquecer absolutamente tudo para te acolher nos meus braços e te amar.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Enfrentar as minhas seguranças, por querer te proporcionar um amor saudável e estável.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Ler para que possa dormir melhor em dias de mente cansada.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Chorar por ouvir você me chamar de "meu amor".</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Me sentir tranquila depois de uma discussão feia, por saber que nós podemos resolver absolutamente qualquer coisa enquanto estivermos juntas.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Sorrir quando vejo o display do celular mostrar que está me ligando, mesmo nos meus dias mais cinzentos.</p>
+
+      </div>
+
+      <div class="youMakeMe__textBox">
+
+        <div class="emoji">
+          <p class="emoji__content">
+            💌
+          </p>
+        </div>
+
+        <p class="youMakeMe__text">Te amar absurdamente todos os dias, e ainda assim acordar no dia seguinte te amando um pouco mais.</p>
+
+      </div>
+
+      <button class="btnVoltar" onclick="btnVoltarYouMakeMe()"><i class="fa-solid fa-arrow-left"></i></button>
+
+    </section>
+
+            <!--                        read me                                -->
+
+
+            <section class="container-read-me ativo">
+              <div class="read-me__header">
+                <p class="read-me__titulo">
+                  III. "Vou amar você, com tudo de mim, pelo resto da sua vida."
+                </p>
+        
+                <hr class="read-me__divider" />
+              </div>
+        
+              <div class="read-me__container-main">
+                <div class="container-main__letter">
+                  <p class="read-me__letter">
+                    A infeliz verdade sobre o mundo dos seres imortais é que somos mais parecidos com os mortais do que gostaríamos de ser. Nós sorrimos, choramos e sentimos as dores da alma como qualquer outro humano, e não são todos que gostam da sensação de se estar vivo. É esse um dos grandes motivos para que as criaturas da noite são conhecidas como frias, distantes e mórbidas, o nosso instinto rejeita todas as reações sentimentais que o cérebro impõe como natural.
+                  </p>
+        
+                  <p class="read-me__letter">
+                    Enquanto crescia o amor de meu pai era tudo o que eu julgava necessário, em partes já havia provado de frutos não cuidados, desse mesmo sentimento, com outras pessoas, mas nunca de fato consegui entender o que significava amar alguém que não fosse o homem que me criou.
+                  </p>
+        
+                  <p class="read-me__letter">
+                    Por longos anos da minha existência foi possível que eu continuasse a driblar os sentimentos mortais com certa maestria, mas nem sempre conseguimos controlar as nossas vidas, então a minha me levou até você. Até a cozinha da sua casa, aos seus braços em meu pescoço durante uma dança, até a sua cama. Depois, de novo. E mais uma vez. Até que nenhuma outra casa, abraço e cama fossem o suficiente para que eu voltasse a qualquer lugar que não pudesse ter você.
+                  </p>
+        
+                  <p class="read-me__letter">
+                    Entendo que hoje o amor é mais do que a sensação de desejar alguém por perto. É sentir que seu lar não tem logradouro, mas sim um coração batendo forte dentro de si, tem cheiro, manias, visões e opiniões completamente distintas das minhas. Quando se pode sentir o calor de um corpo e ter a plena certeza de que é aquele o lugar onde quer passar o resto da existência, dentro da bolha dos toques carinhosos, dos sussurros e confissões apaixonadas como se fossem sempre a primeira vez.
+                  </p>
+
+                  <p class="read-me__letter">
+                    E você, Scarpazzi, é o meu lar, cheiro, mania e coração preferido. Você é o meu significado de amor.
+                  </p>
+
+                  <p class="read-me__citacao">
+                    "Por favor, nunca se esqueça de que o sol se levanta e se põe com seu sorriso. Pelo menos para mim. Você é a única coisa nesse mundo que merece devoção."
+                  </p>
+
+                  <p class="read-me__author">
+                    Com amor, Mavis.
+                  </p>
+
+                </div>
+              </div>
+
+              <button class="btnVoltar" onclick="btnVoltarLetter()"><i class="fa-solid fa-arrow-left"></i></button>
+            </section>
+
+    <script src="./assets/js/botoes.js"></script>
+    <script src="./assets/js/playlist.js"></script>
+    <script src="./assets/js/musica.js"></script>
+    
+  </body>
+</html>

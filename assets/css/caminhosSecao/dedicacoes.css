@@ -1,0 +1,88 @@
+/* 2nd part  */
+
+
+.container-dedicacoes.ativo{
+    display: none;
+}
+
+.container-dedicacoes{
+    align-items: center;
+    text-align: center;
+    margin: 8rem auto;
+}
+
+.dedicacoes__header{
+    width: 100%;
+    text-align: center;
+}
+
+.dedicacoes__titulo{
+    font-family: 'Petrona', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin: auto;
+    width: 50%;
+}
+
+.dedicacoes-caixas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.dedicacoes__divider{
+    width: 50%;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.quotes__img{
+    width: 100%;
+    filter: brightness(50%) blur(0.8px);
+    border-radius: 1rem;
+}
+
+.container__bg{
+    text-align: center;
+
+    padding: .1rem;
+    width: 50%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    margin-bottom: 5rem;
+
+
+}
+
+.quotes__container{
+
+    border-left: 3px solid var(--quotes-font);
+    padding: 1rem;
+
+    word-break: break-word; 
+
+    margin: 1rem;
+    position: absolute;
+    top: 20%;
+}
+
+.quotes{
+    font-weight: 400;
+    color: var(--quotes-font);
+    font-family: 'Petrona', serif;
+    
+}
+
+.quotes__author{
+    margin-top: .9rem;
+    color: var(--quotes-author);
+}
+
+.btnVoltar{
+    cursor: pointer;
+}

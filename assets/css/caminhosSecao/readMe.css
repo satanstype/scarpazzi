@@ -1,0 +1,64 @@
+.container-read-me.ativo{
+    display: none;
+}
+
+ .container-read-me{
+    align-items: center;
+    text-align: center;
+    margin: 8rem auto;
+} 
+
+.read-me__header{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.read-me__titulo{
+    font-family: 'Petrona', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.read-me__divider{
+    width: 50%;
+
+    margin-bottom: 3rem;
+}
+
+.read-me__container-main{
+
+    margin: 0 auto;
+    background-color: var(--read-me-letter-bg);
+    word-break: break-word; 
+    width: 50%;
+
+    border-radius: 1rem;
+
+    text-align: center;
+    font-weight: 500;
+    padding: 3.2rem;
+
+}
+
+.container-main__letter{
+
+    margin: auto;
+
+    width: 80%;
+
+}
+
+.read-me__letter{
+    padding: .5rem;
+    text-align: justify;
+}
+
+.read-me__citacao{
+    margin-top: 1rem;
+}
+
+.read-me__author{
+    margin-top: 2rem;
+}
+

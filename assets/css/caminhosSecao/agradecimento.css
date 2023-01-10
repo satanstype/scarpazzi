@@ -1,0 +1,61 @@
+.container-youMakeMe.ativo{
+    display: none;
+}
+
+.container-youMakeMe{
+    align-items: center;
+    text-align: center;
+    margin: 8rem auto;
+} 
+
+.youMakeMe__header{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.youMakeMe__titulo{
+    font-family: 'Petrona', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin: auto;
+    width: 50%;
+}
+
+.youMakeMe__divider{
+    width: 50%;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.youMakeMe__caixas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.emoji{
+    height: 100%;
+    padding-right: 2%;
+
+}
+
+.emoji__content{
+    width: 10%;
+}
+
+.youMakeMe__textBox{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    background-color: var(--youMakeMe-container-bg);
+    border-radius: 1rem;
+    margin-bottom: 5%;
+    width: 30%;
+}
+
+.youMakeMe__text{
+    color: var(--youMakeMe-font);
+    padding: 1%;
+}

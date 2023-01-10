@@ -1,0 +1,84 @@
+.container-opcoes.ativo {
+  display: none;
+}
+
+.container__citacao{
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.opcoes__citacao{
+  font-family: 'Petrona', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.opcoes__divider{
+  width: 50%;
+
+  margin-bottom: 3rem;
+}
+
+.botoes__opcoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.btn-texto,
+.btn-dedicacoes,
+.btn-agradecimento {
+  width: 15rem;
+  height: 3.5rem;
+
+  border-radius: 1rem;
+
+  cursor: pointer;
+
+  color: var(--botoes-opcoes-font);
+  background-color: var(--botoes-opcoes-bg);
+
+  margin-top: 1.5rem;
+
+  opacity: 0.8;
+
+  transition: .8s;
+}
+
+.btn-texto:hover,
+.btn-dedicacoes:hover,
+.btn-agradecimento:hover {
+  opacity: 1;
+}
+
+.milkmocha__opcoes{
+    width: 10%;
+    margin-top: -5%;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+  .container-opcoes{
+    align-items: center;
+    text-align: center;
+  }
+  .container__citacao{
+    width: 50%;
+    margin: 40% auto;
+  }
+
+  .botoes__opcoes{
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .milkmocha__opcoes{
+    width: 40%;
+    margin-top: 15%;
+  }
+}
